@@ -1,0 +1,14 @@
+DevTICC22
+
+DevTIC22, grupo conformado por cinco participantes del programa Misio TIC 2022 aquí se presenta el objetivo a cumplir y asignado en el proceso de formación como evidencia del cumplimiento de las metas correspondientes al ciclo 3 del programa, así como los integrantes del grupo de trabajo.
+
+Objetivo
+Analizar, diseñar y construir una aplicación software que permita controlar las ventas físicas y virtuales de una empresa de manufactura y hacerles el correspondiente seguimiento.
+
+Integrantes 
+1. Luz Angela Rojas Prieto
+2. Yiriam Ochoa Sabogal
+3. Brayan Pérez Baquero
+4. Cristian Andres Patiño
+5. Julián Andres Orozco Valencia
+
