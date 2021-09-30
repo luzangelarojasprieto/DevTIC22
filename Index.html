@@ -5,14 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-   <div>
-    <form>
-        <input type="text" name="usuario" placeholder="Usuario" required>
-        <input type="password" placeholder="Contraseña" name="password" required>
-        <input type="submit" value="Login">
-    </form>
-   </div> 
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="css/Style.css">
+    <!-- Script -->
+
+    <!-- Bootstrap 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- -->
+    
+<body class="box_fondo">
+    <div class="container pt-5 w-50">
+    <div class="row ">
+    <!-- contenedor login izq -->
+        <div class="col p-4 box_contenedor">
+            <div class="alert alert-warning">
+                <h4>Bienvenido</h4>
+            </div>
+            <form>
+                <select name="rol" class="form-control">
+                    <option selected disabled>Seleccione su Rol</option>
+                    <option>Administrador</option>
+                    <option>Vendedor</option>
+                </select>
+                <br>
+                <input type="text" name="usuario" placeholder="Usuario" required class="form-control">
+                <br>
+                <input type="password" placeholder="Contraseña" name="password" required class="form-control">
+                <br>
+                <input type="submit" value="Login" class="btn btn-warning">
+                <br>
+                <a href="sfw/Productos.html">login</a>
+                <a href="#" data-toggle="modal" data-target="#myModal">Registrarse</a>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <!-- contenedor pie de pagina -->
+    <div class="footer">
+        <p>Pie de página</p>
+    </div>
+
+    <!-- Ventana Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header alert alert-warning">
+            <h4 class="modal-title">Registro</h4>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div>
+                  <select class="form-control">
+                      <option selected disabled>Seleccione</option>
+                      <option value="CC">Cédula de ciudadania</option>
+                      <option value="TI">Tarjeta de identidad</option>
+                      <option value="CE">Cédula extranjeria</option>
+                      <option value="PA">Pasaporte</option>
+                  </select>
+              </div>
+              <br>
+              <div>
+                  <input type="text" placeholder="Nombre" required class="form-control"><br>
+                  <input type="text" placeholder="Usuario" required class="form-control"><br>
+                  <input type="email" placeholder="E-mail" required class="form-control"><br>
+                  <input type="number" placeholder="Teléfono" required class="form-control"><br>
+                  <input type="password" placeholder="Clave" required class="form-control"><br>
+                  <input type="checkbox">
+                  <label for="tems">Aceptación de términos</label><br>
+                  <input type="submit" value="Registro" disabled class="btn btn-warning">
+                  <button type="button" class="btn btn-warning">
+                      <span>Atras</span>
+                  </button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer alert alert-warning">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        
+      
+
 </body>
 </html>

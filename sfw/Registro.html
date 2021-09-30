@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Estilos css -->
+    <link href="../CSS/Registro_Style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="contenReg">
+        <div>
+            <h3>Formulario de registro</h3>
+        </div>
+        <form>
+            <div>
+                <select>
+                    <option selected disabled>Seleccione</option>
+                    <option value="CC">Cédula de ciudadania</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="CE">Cédula extranjeria</option>
+                    <option value="PA">Pasaporte</option>
+                </select>
+            </div>
+            <div class="grid grid-2">
+                <input type="text" placeholder="Nombre" required><br>
+                <input type="text" placeholder="Usuario" required><br>
+                <input type="email" placeholder="E-mail" required><br>
+                <input type="number" placeholder="Teléfono" required><br>
+                <input type="password" placeholder="Clave" required><br>
+                <input type="checkbox" id="terms">
+                <label for="tems">Aceptación de términos</label><br>
+                <input type="submit" value="Registro" disabled class="btn">
+                <button type="submit" class="btn">
+                    <span>Atras</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
